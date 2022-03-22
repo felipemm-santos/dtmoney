@@ -23,10 +23,12 @@ export const Content = styled.div`
     height: 3rem;
 
     transition: filter 0.2s;
+    transition: border 2s;
+    transition: border-color 0.2s;
 
     &:hover {
       filter: brightness(0.9);
-      border: 0.075rem solid;
+      border: 2px solid;
       border-color: var(--blue-light-border);
     }
   }
